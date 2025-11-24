@@ -1,0 +1,20 @@
+# Mac 시스템 파일
+.DS_Store
+
+# IntelliJ 설정 파일(개인 설정 공유 방지)
+.idea/
+*.iml
+*.iws
+
+# Java & Gradle 빌드 결과물 (가장 중요!)
+**/build/
+**/out/
+**/.gradle/
+
+# Maven 빌드 결과물
+**/target/
+**/mvnw
+**/mvnw.cmd
+
+# 기타 로그 등
+*.log

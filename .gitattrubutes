@@ -1,0 +1,9 @@
+# 모든 텍스트 파일의 줄바꿈을 LF로 강제함 (Mac, WSL2, Linux 친화적)
+* text=auto eol=lf
+
+# 바이너리 파일은 건드리지 않음
+*.jar binary
+*.class binary
+
+# 윈도우에서 배치 파일은 CRLF 유지(혹지 모를 호환성)
+*bat text eol-crlf
