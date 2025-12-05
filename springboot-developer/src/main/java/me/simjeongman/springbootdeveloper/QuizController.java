@@ -1,6 +1,5 @@
 package me.simjeongman.springbootdeveloper;
 
-import org.aspectj.apache.bcel.classfile.Code;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
