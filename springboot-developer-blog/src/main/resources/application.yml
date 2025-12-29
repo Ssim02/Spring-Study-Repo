@@ -1,4 +1,15 @@
 spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google: # client-id / client-secret 깃허브 업로드 X
+            client-id:
+            client-secret:
+            scope:
+              - email
+              - profile
+
   jpa:
     # 전송 쿼리 확인
     # show-sql, format-sql옵션은 애플리케이션 실행 과정에 데이터베이스에 쿼리할 일이 있으면 실행 구문을 모두 보여주는 옵션.
